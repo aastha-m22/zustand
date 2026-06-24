@@ -344,7 +344,7 @@ const countAtom = atom<number>(0)
 ### Render Optimization (vs Jotai)
 
 Jotai achieves render optimizations through atom dependency.
-However, with Zustand it is recommended that
+However, with Zustand , it is recommended that
 you manually apply render optimizations by using selectors.
 
 **Zustand**
